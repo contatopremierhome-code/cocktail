@@ -4,12 +4,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const bonuses = [
   {
-    id: 'bonus-book-1',
-    title: 'Guia de Experiências',
-    description: 'Aprenda a criar momentos inesquecíveis. Da apresentação à harmonização.',
-    price: 'R$49,00'
-  },
-  {
     id: 'bonus-book-2',
     title: 'Guia de Drinks Sem Álcool',
     description: 'Receitas criativas e saborosas para todos os gostos, sem uma gota de álcool.',
@@ -29,14 +23,14 @@ const Bonuses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Leve <span className="text-primary">3 Bônus Exclusivos</span> (avaliados em R$147)
+            Leve <span className="text-primary">2 Bônus Exclusivos</span> (avaliados em R$98)
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-2xl text-green-400 font-bold animate-pulse">
             DE GRAÇA, APENAS HOJE!
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {bonuses.map((bonus) => {
             const image = PlaceHolderImages.find(p => p.id === bonus.id);
             return (

@@ -163,15 +163,9 @@
       "imageHint": "person portrait"
     },
     {
-      "id": "bonus-book-1",
-      "description": "Capa do livro bônus sobre experiências memoráveis.",
-      "imageUrl": "https://storage.googleapis.com/aif-quick-prompt-prod.appspot.com/a6f08a4a-1c02-47a3-9366-0d1999997426.png",
-      "imageHint": "book cover"
-    },
-    {
       "id": "bonus-book-2",
       "description": "Capa do livro bônus sobre drinks sem álcool.",
-      "imageUrl": "https://storage.googleapis.com/aif-quick-prompt-prod.appspot.com/b5a45b73-61a2-4c90-94e3-547e7040c5f0.png",
+      "imageUrl": "https://i.imgur.com/V04Lqso.png",
       "imageHint": "book cover"
     },
     {
