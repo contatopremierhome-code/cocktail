@@ -3,7 +3,7 @@
     {
       "id": "hero-cocktail",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://storage.googleapis.com/aif-quick-prompt-prod.appspot.com/9a584067-b50d-444f-bfa9-e938139aa2f0.gif",
+      "imageUrl": "https://i.imgur.com/gBw24zV.gif",
       "imageHint": "vibrant cocktail"
     },
     {
@@ -61,6 +61,72 @@
       "imageHint": "dry martini"
     },
     {
+      "id": "drink-exotico",
+      "description": "Drink Exótico",
+      "imageUrl": "https://images.unsplash.com/photo-1746784867908-e96d3b4bb7d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxleG90aWMlMjBkcmlua3xlbnwwfHx8fDE3NjgzMjQ0MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "exotic drink"
+    },
+    {
+      "id": "condessa",
+      "description": "Condessa",
+      "imageUrl": "https://images.unsplash.com/photo-1723408409535-4e57e443280b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xhc3N5JTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzI0NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classy cocktail"
+    },
+    {
+      "id": "batida-frutas",
+      "description": "Batida de Frutas Tropicais",
+      "imageUrl": "https://images.unsplash.com/photo-1539574610665-dc92264e9c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cm9waWNhbCUyMHNtb290aGllfGVufDB8fHx8MTc2ODMyNDQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tropical smoothie"
+    },
+    {
+      "id": "hurricane-janet",
+      "description": "Hurricane Janet",
+      "imageUrl": "https://images.unsplash.com/photo-1559842623-b82d2e1228a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxodXJyaWNhbmUlMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjQ0MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hurricane cocktail"
+    },
+    {
+      "id": "rickey",
+      "description": "Rickey",
+      "imageUrl": "https://images.unsplash.com/photo-1716694250986-c1abdd19af23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnaW4lMjByaWNrZXl8ZW58MHx8fHwxNzY4MzI0NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gin rickey"
+    },
+    {
+      "id": "texas-tea",
+      "description": "Texas Tea",
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpY2VkJTIwdGVhfGVufDB8fHx8MTc2ODI3NTQ2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced tea"
+    },
+    {
+      "id": "kiwi-margarita",
+      "description": "Kiwi Margarita",
+      "imageUrl": "https://picsum.photos/seed/kiwimargarita/400/500",
+      "imageHint": "kiwi margarita"
+    },
+    {
+      "id": "clericot",
+      "description": "Clericot",
+      "imageUrl": "https://images.unsplash.com/photo-1672140940042-1f2e27cf64df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3aW5lJTIwcHVuY2h8ZW58MHx8fHwxNzY4MzI0NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wine punch"
+    },
+    {
+      "id": "dark-knight",
+      "description": "Dark Knight",
+      "imageUrl": "https://images.unsplash.com/photo-1694021256251-ca1607500703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MjU5NzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark cocktail"
+    },
+    {
+      "id": "frozen-sex",
+      "description": "Frozen Sex – Drink com Sorvete",
+      "imageUrl": "https://images.unsplash.com/photo-1698129863040-3bbb7791f4b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpY2VjcmVhbSUyMGNvY2t0YWlsfGVufDB8fHx8MTc2ODMyNDQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "icecream cocktail"
+    },
+    {
+      "id": "xixi-anjo",
+      "description": "Xixi de Anjo",
+      "imageUrl": "https://images.unsplash.com/photo-1718824471313-1b6a74880f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5ZWxsb3clMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjQ0MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow cocktail"
+    },
+    {
       "id": "avatar-1",
       "description": "Avatar of a happy customer.",
       "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -76,6 +142,24 @@
       "id": "avatar-3",
       "description": "Avatar of a third happy customer.",
       "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-4",
+      "description": "Avatar of a happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-5",
+      "description": "Avatar of another happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-6",
+      "description": "Avatar of a third happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
     },
     {
