@@ -3,7 +3,7 @@
     {
       "id": "hero-cocktail",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://i.imgur.com/gBw24zV.gif",
+      "imageUrl": "https://i.imgur.com/pNEb25g.gif",
       "imageHint": "vibrant cocktail"
     },
     {
@@ -99,7 +99,7 @@
     {
       "id": "kiwi-margarita",
       "description": "Kiwi Margarita",
-      "imageUrl": "https://picsum.photos/seed/kiwimargarita/400/500",
+      "imageUrl": "https://images.unsplash.com/photo-1641749644283-03d6630b67a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2l3aSUyMG1hcmdhcml0YXxlbnwwfHx8fDE3NjgzMjQ0Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kiwi margarita"
     },
     {
