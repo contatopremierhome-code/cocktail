@@ -29,7 +29,7 @@ const MainProduct = () => {
                     data-ai-hint={image.imageHint}
                 />
             )}
-            <Button asChild size="lg" className="h-14 text-lg hidden sm:inline-flex">
+            <Button asChild size="lg" className="h-14 text-lg hidden md:inline-flex">
                 <Link href="#pricing">I WANT MY GUIDE NOW!</Link>
             </Button>
         </div>
