@@ -6,19 +6,19 @@ import Link from 'next/link';
 const features = [
   {
     icon: BookOpenCheck,
-    text: 'Acesso completo ao E-book com +500 Receitas de Drinks',
+    text: 'Full access to the E-book with +500 Drink Recipes',
   },
   {
     icon: PartyPopper,
-    text: 'Guia de Drinks Sem Álcool (Bônus #1)',
+    text: 'Non-Alcoholic Drinks Guide (Bonus #1)',
   },
   {
     icon: PartyPopper,
-    text: 'Guia Bar em Casa em 5 Minutos (Bônus #2)',
+    text: 'Home Bar in 5 Minutes Guide (Bonus #2)',
   },
   {
     icon: ShieldCheck,
-    text: 'Acesso Vitalício e Atualizações Futuras Gratuitas',
+    text: 'Lifetime Access and Free Future Updates',
   },
 ];
 
@@ -30,20 +30,20 @@ const Pricing = () => {
         <Card className="flex flex-col relative border-2 border-primary shadow-primary/20 shadow-xl overflow-hidden">
             <CardHeader className="items-center text-center p-6 bg-card/80">
               <CardTitle className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-                OFERTA ESPECIAL POR TEMPO LIMITADO
+                LIMITED TIME SPECIAL OFFER
               </CardTitle>
               <CardDescription className="text-lg text-muted-foreground mt-2">
-                Acesso Imediato a Todo o Conteúdo. Sem Mensalidades.
+                Immediate Access to All Content. No Monthly Fees.
               </CardDescription>
             </CardHeader>
             <CardContent className="p-8 sm:p-10 flex-1">
               <div className="text-center mb-8">
-                <p className="text-xl text-muted-foreground line-through">De R$147,00</p>
+                <p className="text-xl text-muted-foreground line-through">From $147.00</p>
                 <div className="flex items-center justify-center gap-2 mt-2">
-                  <span className="text-sm">Por apenas</span>
-                  <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">R$4,90</span>
+                  <span className="text-sm">For just</span>
+                  <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">$4.90</span>
                 </div>
-                <p className="text-lg font-semibold text-primary mt-2 animate-pulse">Pagamento Único!</p>
+                <p className="text-lg font-semibold text-primary mt-2 animate-pulse">One-Time Payment!</p>
               </div>
 
               <ul className="space-y-4">
@@ -57,7 +57,7 @@ const Pricing = () => {
             </CardContent>
             <CardFooter className="p-6 bg-card/80 border-t border-border">
               <Button asChild size="lg" className="w-full h-16 text-lg sm:text-xl font-bold">
-                <Link href="#">QUERO ACESSO IMEDIATO POR R$4,90</Link>
+                <Link href="#">GET INSTANT ACCESS FOR $4.90</Link>
               </Button>
             </CardFooter>
           </Card>

@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: 'Como recebo o material?',
-    answer: "Instantaneamente! Assim que seu pagamento for processado, você receberá um link seguro para baixar todos os livros de receitas e guias em formato PDF.",
+    question: 'How do I receive the material?',
+    answer: "Instantly! As soon as your payment is processed, you will receive a secure link to download all the recipe books and guides in PDF format.",
   },
   {
-    question: 'Preciso de ferramentas profissionais?',
-    answer: 'De jeito nenhum. Nosso guia foi feito para bartenders caseiros. Mostramos como usar itens comuns de cozinha para criar coquetéis incríveis. O bônus "Bar em Casa em 5 Minutos" também mostra as únicas ferramentas acessíveis que você pode querer considerar.',
+    question: 'Do I need professional tools?',
+    answer: "Not at all. Our guide is made for home bartenders. We show you how to use common kitchen items to create amazing cocktails. The 'Home Bar in 5 Minutes' bonus also shows the only affordable tools you might want to consider.",
   },
   {
-    question: 'O acesso é vitalício?',
-    answer: 'Sim! Você paga uma vez e tem acesso vitalício a todos os materiais, incluindo todas as futuras atualizações e novas adições de receitas ao Pacote Pro. Sem assinaturas, sem taxas ocultas.',
+    question: 'Is access for life?',
+    answer: 'Yes! You pay once and have lifetime access to all materials, including all future updates and new recipe additions to the Pro Pack. No subscriptions, no hidden fees.',
   },
   {
-    question: 'Posso ver no meu celular?',
-    answer: 'Sim, nossos PDFs são projetados para serem lindamente legíveis em qualquer dispositivo: celular, tablet ou computador. Leve suas receitas com você onde quer que vá.',
+    question: 'Can I view it on my phone?',
+    answer: 'Yes, our PDFs are designed to be beautifully readable on any device: phone, tablet, or computer. Take your recipes with you wherever you go.',
   },
 ];
 
@@ -30,10 +30,10 @@ const Faq = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Perguntas Frequentes
+            Frequently Asked Questions
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Tem perguntas? Nós temos as respostas.
+            Got questions? We have the answers.
           </p>
         </div>
 

@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Mestre dos Drinks - Desbloqueie mais de 500 Receitas de Coquetéis',
-  description: 'Torne-se o bartender oficial de todas as festas. Domine receitas de coquetéis com ingredientes simples. Nenhum equipamento sofisticado é necessário.',
+  title: 'Cocktail Master - Unlock 500+ Cocktail Recipes',
+  description: 'Become the official bartender at every party. Master cocktail recipes with simple ingredients. No fancy equipment needed.',
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

@@ -11,10 +11,10 @@ const MainProduct = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Tenha em Mãos o Guia Definitivo com <span className="text-primary">+500 Receitas de Drinks</span>
+            Get Your Hands on The Ultimate Guide with <span className="text-primary">500+ Drink Recipes</span>
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            O segredo dos melhores bartenders, agora revelado para você. De receitas clássicas a criações autorais, tudo o que você precisa para se tornar um verdadeiro Mestre dos Drinks.
+            The secret of the best bartenders, now revealed to you. From classic recipes to signature creations, everything you need to become a true Cocktail Master.
           </p>
         </div>
         
@@ -30,7 +30,7 @@ const MainProduct = () => {
                 />
             )}
             <Button asChild size="lg" className="h-14 text-lg">
-                <Link href="#pricing">EU QUERO O MEU GUIA AGORA!</Link>
+                <Link href="#pricing">I WANT MY GUIDE NOW!</Link>
             </Button>
         </div>
 
