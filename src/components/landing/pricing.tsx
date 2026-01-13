@@ -56,7 +56,7 @@ const Pricing = () => {
               </ul>
             </CardContent>
             <CardFooter className="p-6 bg-card/80 border-t border-border">
-              <Button asChild size="lg" className="w-full h-16 text-xl font-bold">
+              <Button asChild size="lg" className="w-full h-16 text-lg sm:text-xl font-bold">
                 <Link href="#">QUERO ACESSO IMEDIATO POR R$4,90</Link>
               </Button>
             </CardFooter>
