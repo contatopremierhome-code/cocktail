@@ -6,8 +6,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const testimonials = [
   {
     quote: "I never thought it would be so easy to make such good drinks at home. The recipe book is super detailed and the tips are golden. I became the official bartender of the group!",
-    name: 'Juliana S.',
-    avatarId: 'avatar-1',
+    name: 'John D.',
+    avatarId: 'avatar-4',
   },
   {
     quote: "I bought the pro package and the amount of recipes is incredible. The lifetime updates are a fantastic bonus. I've already saved a lot of money making my own cocktails.",
