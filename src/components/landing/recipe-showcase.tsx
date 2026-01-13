@@ -49,9 +49,9 @@ const RecipeShowcase = () => {
               stopOnMouseEnter: true,
             }),
           ]}
-          className="w-full relative"
+          className="w-full"
         >
-          <CarouselContent className="-ml-4 pb-16 sm:pb-4">
+          <CarouselContent className="-ml-4">
             {recipes.map((recipe) => {
               const image = PlaceHolderImages.find((p) => p.id === recipe.id);
               return (
@@ -78,10 +78,6 @@ const RecipeShowcase = () => {
               );
             })}
           </CarouselContent>
-          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex sm:hidden items-center justify-center gap-x-4">
-            <CarouselPrevious />
-            <CarouselNext />
-          </div>
           <CarouselPrevious className="hidden sm:inline-flex" />
           <CarouselNext className="hidden sm:inline-flex" />
         </Carousel>
