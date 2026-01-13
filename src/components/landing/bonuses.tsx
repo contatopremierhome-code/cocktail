@@ -1,16 +1,16 @@
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Gift, HeartPulse, Sparkles } from 'lucide-react';
+import { Gift, HeartPulse, Sparkles, Star } from 'lucide-react';
 
 const bonuses = [
   {
-    icon: Sparkles,
-    title: 'A Arte de Guarnecer',
-    description: 'Faça qualquer bebida parecer que custa R$25, mesmo com ingredientes simples.',
+    icon: Star,
+    title: 'Experiências Memoráveis',
+    description: 'Técnicas e boas práticas para criar experiências memoráveis com seus coquetéis.',
   },
   {
     icon: HeartPulse,
-    title: 'Segredos de Baixas Calorias',
-    description: 'Aproveite a festa sem o pico de açúcar com nosso guia de coquetéis "skinny".',
+    title: 'Receitas de Drinks Sem Álcool',
+    description: 'Aproveite a festa sem álcool com nosso guia de mocktails deliciosos e criativos.',
   },
   {
     icon: Gift,
