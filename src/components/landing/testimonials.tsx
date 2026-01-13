@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     quote: 'I was a complete beginner, but with the "Beginner" guide, I\'m already impressing my friends. The instructions are clear and the ingredients are easy to find. I recommend it!',
-    name: 'Fernanda L.',
+    name: 'Frank L.',
     avatarId: 'avatar-3',
   },
 ];
