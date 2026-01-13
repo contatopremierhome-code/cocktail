@@ -4,18 +4,18 @@ import { Gift, HeartPulse, Sparkles } from 'lucide-react';
 const bonuses = [
   {
     icon: Sparkles,
-    title: 'The Art of Garnishing',
-    description: 'Make any drink look like it costs $25, even with simple ingredients.',
+    title: 'A Arte de Guarnecer',
+    description: 'Faça qualquer bebida parecer que custa R$25, mesmo com ingredientes simples.',
   },
   {
     icon: HeartPulse,
-    title: 'Low-Calorie Secrets',
-    description: 'Enjoy the party without the sugar crash with our skinny cocktail guide.',
+    title: 'Segredos de Baixas Calorias',
+    description: 'Aproveite a festa sem o pico de açúcar com nosso guia de coquetéis "skinny".',
   },
   {
     icon: Gift,
-    title: '5-Min Home Bar Setup',
-    description: "A budget-friendly guide to the only essential tools you'll ever need.",
+    title: 'Bar em Casa em 5 Minutos',
+    description: "Um guia econômico para as únicas ferramentas essenciais que você precisará.",
   },
 ];
 
@@ -25,10 +25,10 @@ const Bonuses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Get These 3 Exclusive Bonuses <span className="text-primary">(Worth $49)</span>
+            Receba Estes 3 Bônus Exclusivos <span className="text-primary">(no valor de R$49)</span>
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Included for free when you choose the Pro Pack today.
+            Incluído gratuitamente ao escolher o Pacote Pro hoje.
           </p>
         </div>
 

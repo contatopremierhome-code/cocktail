@@ -7,18 +7,18 @@ import Link from 'next/link';
 
 const plans = [
   {
-    name: 'The Starter',
-    price: '$4.90',
-    features: ['50 Essential Recipes', 'Basic PDF access'],
+    name: 'O Iniciante',
+    price: 'R$4,90',
+    features: ['50 Receitas Essenciais', 'Acesso básico em PDF'],
     isPopular: false,
-    cta: 'Get Starter Pack',
+    cta: 'Comprar Pacote Iniciante',
   },
   {
-    name: 'The Pro',
-    price: '$9.90',
-    features: ['500+ Professional Recipes', 'Lifetime Updates', 'Exclusive Bonuses Included'],
+    name: 'O Profissional',
+    price: 'R$9,90',
+    features: ['Mais de 500 Receitas Profissionais', 'Atualizações Vitalícias', 'Bônus Exclusivos Incluídos'],
     isPopular: true,
-    cta: 'Get Pro Pack Now',
+    cta: 'Comprar Pacote Profissional',
   },
 ];
 
@@ -28,10 +28,10 @@ const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Choose Your Arsenal
+            Escolha Seu Arsenal
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            One-time payment. Lifetime access. No subscriptions.
+            Pagamento único. Acesso vitalício. Sem assinaturas.
           </p>
         </div>
 
@@ -40,14 +40,14 @@ const Pricing = () => {
             <Card key={plan.name} className={cn('flex flex-col relative', plan.isPopular && 'border-2 border-primary shadow-primary/20 shadow-xl')}>
               {plan.isPopular && (
                 <Badge variant="default" className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-1 text-sm">
-                  MOST POPULAR
+                  MAIS POPULAR
                 </Badge>
               )}
               <CardHeader className="items-center text-center pt-10">
                 <CardTitle className="text-2xl font-bold">{plan.name}</CardTitle>
                 <div className="flex items-baseline gap-2">
                   <span className="text-5xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 to-neutral-400">{plan.price}</span>
-                  <span className="text-muted-foreground">/ one-time</span>
+                  <span className="text-muted-foreground">/ uma única vez</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">

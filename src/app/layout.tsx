@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Mixology Master - Unlock 500+ Cocktail Recipes',
-  description: 'Become the official bartender of every party. Master professional cocktail recipes with simple ingredients. No fancy gear required.',
+  title: 'Mestre da Mixologia - Desbloqueie mais de 500 Receitas de Coquetéis',
+  description: 'Torne-se o bartender oficial de todas as festas. Domine receitas de coquetéis profissionais com ingredientes simples. Nenhum equipamento sofisticado é necessário.',
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="pt-BR" className="!scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

@@ -12,12 +12,12 @@ import {
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const recipes = [
-  { id: 'mojito', name: 'Classic Mojito', description: 'Fresh Mint & Lime' },
-  { id: 'margarita', name: 'Spicy Passionfruit Margarita', description: 'A Tropical Kick' },
-  { id: 'hawaiian', name: 'Blue Hawaiian Luxury', description: 'An Exotic Escape' },
-  { id: 'gin-fizz', name: 'Strawberry Gin Fizz', description: 'Bubbly & Bright' },
-  { id: 'mocktail', name: 'Sunset Mocktail', description: 'Vibrant & Non-Alcoholic' },
-  { id: 'old-fashioned', name: 'Smoked Old Fashioned', description: 'Timeless & Bold' },
+  { id: 'mojito', name: 'Mojito Clássico', description: 'Menta Fresca e Limão' },
+  { id: 'margarita', name: 'Margarita de Maracujá Picante', description: 'Um Toque Tropical' },
+  { id: 'hawaiian', name: 'Luxo Havaiano Azul', description: 'Uma Fuga Exótica' },
+  { id: 'gin-fizz', name: 'Gin Fizz de Morango', description: 'Borbullhante e Brilhante' },
+  { id: 'mocktail', name: 'Mocktail Pôr do Sol', description: 'Vibrante e Sem Álcool' },
+  { id: 'old-fashioned', name: 'Old Fashioned Defumado', description: 'Atemporal e Ousado' },
 ];
 
 const RecipeShowcase = () => {
@@ -26,10 +26,10 @@ const RecipeShowcase = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            A Taste of What You'll Master
+            Uma Prova do Que Você Vai Dominar
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            From timeless classics to modern twists, your journey to mixology mastery starts here.
+            De clássicos atemporais a toques modernos, sua jornada para a maestria em mixologia começa aqui.
           </p>
         </div>
 
