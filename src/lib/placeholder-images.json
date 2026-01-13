@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-cocktail",
+      "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
+      "imageUrl": "https://images.unsplash.com/photo-1763544161328-246eeb87f288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2aWJyYW50JTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIxNjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vibrant cocktail"
+    },
+    {
+      "id": "mojito",
+      "description": "Classic Mojito with Fresh Mint & Lime.",
+      "imageUrl": "https://images.unsplash.com/photo-1632995561510-38616ed64ff6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2ppdG8lMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjE2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mojito cocktail"
+    },
+    {
+      "id": "margarita",
+      "description": "Spicy Passionfruit Margarita.",
+      "imageUrl": "https://images.unsplash.com/photo-1601887573188-79fb3c767157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXJnYXJpdGElMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjgyODMxMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "margarita cocktail"
+    },
+    {
+      "id": "hawaiian",
+      "description": "Blue Hawaiian Luxury.",
+      "imageUrl": "https://images.unsplash.com/photo-1653075857867-a299801cf126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxibHVlJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MjU5ODkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue cocktail"
+    },
+    {
+      "id": "gin-fizz",
+      "description": "Strawberry Gin Fizz.",
+      "imageUrl": "https://images.unsplash.com/photo-1570204865352-934c744d682c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaW5rJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIxNjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink cocktail"
+    },
+    {
+      "id": "mocktail",
+      "description": "Non-Alcoholic Sunset Mocktail.",
+      "imageUrl": "https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvcmFuZ2UlMjBtb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjE2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange mocktail"
+    },
+    {
+      "id": "old-fashioned",
+      "description": "Smoked Old Fashioned.",
+      "imageUrl": "https://images.unsplash.com/photo-1618834391355-e72be2f693b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGlza2V5JTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4Mjg0NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "whiskey cocktail"
+    }
+  ]
 }
