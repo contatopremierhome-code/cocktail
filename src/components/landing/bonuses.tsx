@@ -1,21 +1,25 @@
+import Image from 'next/image';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Gift, HeartPulse, Sparkles, Star } from 'lucide-react';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const bonuses = [
   {
-    icon: Star,
-    title: 'Experiências Memoráveis',
-    description: 'Técnicas e boas práticas para criar experiências memoráveis com seus coquetéis.',
+    id: 'bonus-book-1',
+    title: 'Guia de Experiências',
+    description: 'Aprenda a criar momentos inesquecíveis. Da apresentação à harmonização.',
+    price: 'R$49,00'
   },
   {
-    icon: HeartPulse,
-    title: 'Receitas de Drinks Sem Álcool',
-    description: 'Aproveite a festa sem álcool com nosso guia de mocktails deliciosos e criativos.',
+    id: 'bonus-book-2',
+    title: 'Guia de Drinks Sem Álcool',
+    description: 'Receitas criativas e saborosas para todos os gostos, sem uma gota de álcool.',
+    price: 'R$49,00'
   },
   {
-    icon: Gift,
+    id: 'bonus-book-3',
     title: 'Bar em Casa em 5 Minutos',
-    description: "Um guia econômico para as únicas ferramentas essenciais que você precisará.",
+    description: 'Monte seu bar com o essencial, sem gastar muito. Impressione com pouco.',
+    price: 'R$49,00'
   },
 ];
 
@@ -25,25 +29,37 @@ const Bonuses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Receba Estes 3 Bônus Exclusivos <span className="text-primary">(no valor de R$49)</span>
+            Leve <span className="text-primary">3 Bônus Exclusivos</span> (avaliados em R$147)
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Incluído gratuitamente ao escolher o Pacote Pro hoje.
+          <p className="mt-4 max-w-2xl mx-auto text-2xl text-green-400 font-bold animate-pulse">
+            DE GRAÇA, APENAS HOJE!
           </p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          {bonuses.map((bonus) => (
-            <Card key={bonus.title} className="text-center bg-card/50 backdrop-blur-sm border-slate-800">
-              <CardHeader>
-                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4">
-                  <bonus.icon className="h-8 w-8 text-primary" />
-                </div>
-                <CardTitle>{bonus.title}</CardTitle>
-                <CardDescription className="pt-2">{bonus.description}</CardDescription>
-              </CardHeader>
-            </Card>
-          ))}
+          {bonuses.map((bonus) => {
+            const image = PlaceHolderImages.find(p => p.id === bonus.id);
+            return (
+              <div key={bonus.title} className="text-center">
+                {image && (
+                  <Image
+                    src={image.imageUrl}
+                    alt={image.description}
+                    width={400}
+                    height={500}
+                    className="rounded-lg shadow-2xl mx-auto mb-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-primary/30"
+                    data-ai-hint={image.imageHint}
+                  />
+                )}
+                <h3 className="text-xl font-bold">{bonus.title}</h3>
+                <p className="text-muted-foreground mt-2 mb-2">{bonus.description}</p>
+                <p className="text-lg font-semibold">
+                  <span className="line-through text-muted-foreground/80">{bonus.price}</span>
+                  <span className="text-primary ml-2">Hoje: Grátis!</span>
+                </p>
+              </div>
+            )
+          })}
         </div>
       </div>
     </section>

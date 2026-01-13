@@ -19,30 +19,6 @@
       "imageHint": "margarita cocktail"
     },
     {
-      "id": "hawaiian",
-      "description": "Blue Hawaiian Luxury.",
-      "imageUrl": "https://images.unsplash.com/photo-1653075857867-a299801cf126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxibHVlJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MjU5ODkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "blue cocktail"
-    },
-    {
-      "id": "gin-fizz",
-      "description": "Strawberry Gin Fizz.",
-      "imageUrl": "https://images.unsplash.com/photo-1570204865352-934c744d682c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaW5rJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIxNjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pink cocktail"
-    },
-    {
-      "id": "mocktail",
-      "description": "Non-Alcoholic Sunset Mocktail.",
-      "imageUrl": "https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvcmFuZ2UlMjBtb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjE2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "orange mocktail"
-    },
-    {
-      "id": "old-fashioned",
-      "description": "Smoked Old Fashioned.",
-      "imageUrl": "https://images.unsplash.com/photo-1618834391355-e72be2f693b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGlza2V5JTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4Mjg0NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "whiskey cocktail"
-    },
-    {
       "id": "caipirinha",
       "description": "Brazilian Caipirinha with lime.",
       "imageUrl": "https://images.unsplash.com/photo-1708416817517-089fccf84b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWlwaXJpbmhhJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIyMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -101,6 +77,24 @@
       "description": "Avatar of a third happy customer.",
       "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "bonus-book-1",
+      "description": "Capa do livro bônus sobre experiências memoráveis.",
+      "imageUrl": "https://images.unsplash.com/photo-1641154748135-8032a61a3f80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY4MjQ1NjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "bonus-book-2",
+      "description": "Capa do livro bônus sobre drinks sem álcool.",
+      "imageUrl": "https://images.unsplash.com/photo-1633477189729-9290b3261d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY4MjQ1NjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "bonus-book-3",
+      "description": "Capa do livro bônus sobre como montar seu bar em casa.",
+      "imageUrl": "https://images.unsplash.com/photo-1629992101753-56d196c8aabb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY4MjQ1NjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
     }
   ]
 }
