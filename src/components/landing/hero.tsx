@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-lg text-muted-foreground sm:text-xl">
               Master over 500 professional cocktail recipes with simple ingredients you already have at home. No fancy equipment needed.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
+            <div className="mt-10 hidden sm:flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
               <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto">
                 <Link href="#pricing">Get Started Now</Link>
               </Button>
