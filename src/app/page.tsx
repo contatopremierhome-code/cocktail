@@ -15,9 +15,9 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <RecipeShowcase />
-        <Pricing />
         <Bonuses />
         <Testimonials />
+        <Pricing />
         <Faq />
       </main>
       <Footer />
