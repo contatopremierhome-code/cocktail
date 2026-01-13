@@ -30,10 +30,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Que Nossos Mestres Dizem
+            O Que Nossos Clientes Dizem
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Veja como transformamos entusiastas em verdadeiros mestres da mixologia.
+            Veja como transformamos entusiastas em verdadeiros mestres dos drinks.
           </p>
         </div>
 

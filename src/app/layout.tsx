@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Mestre da Mixologia - Desbloqueie mais de 500 Receitas de Coquetéis',
-  description: 'Torne-se o bartender oficial de todas as festas. Domine receitas de coquetéis profissionais com ingredientes simples. Nenhum equipamento sofisticado é necessário.',
+  title: 'Mestre dos Drinks - Desbloqueie mais de 500 Receitas de Coquetéis',
+  description: 'Torne-se o bartender oficial de todas as festas. Domine receitas de coquetéis com ingredientes simples. Nenhum equipamento sofisticado é necessário.',
 };
 
 export default function RootLayout({

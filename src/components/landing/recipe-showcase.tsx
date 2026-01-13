@@ -33,7 +33,7 @@ const RecipeShowcase = () => {
             Uma Prova do Que Você Vai Dominar
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            De clássicos atemporais a toques modernos, sua jornada para a maestria em mixologia começa aqui.
+            De clássicos atemporais a toques modernos, sua jornada para fazer drinks incríveis começa aqui.
           </p>
         </div>
 
