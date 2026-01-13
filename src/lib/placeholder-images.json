@@ -173,6 +173,12 @@
       "description": "Capa do livro bônus sobre como montar seu bar em casa.",
       "imageUrl": "https://i.imgur.com/QMYHy2u.png",
       "imageHint": "book cover"
+    },
+    {
+      "id": "main-product-book",
+      "description": "Mockup do livro principal com mais de 500 receitas de drinks.",
+      "imageUrl": "https://i.imgur.com/W1mO3mj.png",
+      "imageHint": "book mockup"
     }
   ]
 }

@@ -7,6 +7,7 @@ import Faq from '@/components/landing/faq';
 import StickyCta from '@/components/landing/sticky-cta';
 import Footer from '@/components/landing/footer';
 import Testimonials from '@/components/landing/testimonials';
+import MainProduct from '@/components/landing/main-product';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <RecipeShowcase />
+        <MainProduct />
         <Bonuses />
         <Testimonials />
         <Pricing />

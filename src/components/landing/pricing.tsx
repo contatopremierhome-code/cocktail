@@ -1,72 +1,66 @@
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, BookOpenCheck, PartyPopper, ShieldCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
-const plans = [
+const features = [
   {
-    name: 'O Iniciante',
-    price: 'R$4,90',
-    features: ['50 Receitas Essenciais', 'Acesso básico em PDF'],
-    isPopular: false,
-    cta: 'Comprar Pacote Iniciante',
+    icon: BookOpenCheck,
+    text: 'Acesso completo ao E-book com +500 Receitas de Drinks',
   },
   {
-    name: 'O Profissional',
-    price: 'R$9,90',
-    features: ['Mais de 500 Receitas Profissionais', 'Atualizações Vitalícias', 'Bônus Exclusivos Incluídos'],
-    isPopular: true,
-    cta: 'Comprar Pacote Profissional',
+    icon: PartyPopper,
+    text: 'Guia de Drinks Sem Álcool (Bônus #1)',
+  },
+  {
+    icon: PartyPopper,
+    text: 'Guia Bar em Casa em 5 Minutos (Bônus #2)',
+  },
+  {
+    icon: ShieldCheck,
+    text: 'Acesso Vitalício e Atualizações Futuras Gratuitas',
   },
 ];
 
 const Pricing = () => {
   return (
-    <section id="pricing" className="py-16 sm:py-24">
+    <section id="pricing" className="py-16 sm:py-24 bg-slate-900/50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Escolha Seu Arsenal
-          </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Pagamento único. Acesso vitalício. Sem assinaturas.
-          </p>
-        </div>
-
-        <div className="grid max-w-md mx-auto gap-10 lg:max-w-4xl lg:grid-cols-2 items-start">
-          {plans.map((plan) => (
-            <Card key={plan.name} className={cn('flex flex-col relative', plan.isPopular && 'border-2 border-primary shadow-primary/20 shadow-xl')}>
-              {plan.isPopular && (
-                <Badge variant="default" className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-1 text-sm">
-                  MAIS POPULAR
-                </Badge>
-              )}
-              <CardHeader className="items-center text-center pt-10">
-                <CardTitle className="text-2xl font-bold">{plan.name}</CardTitle>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-5xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 to-neutral-400">{plan.price}</span>
-                  <span className="text-muted-foreground">/ uma única vez</span>
+        <div className="max-w-3xl mx-auto">
+        <Card className="flex flex-col relative border-2 border-primary shadow-primary/20 shadow-xl overflow-hidden">
+            <CardHeader className="items-center text-center p-6 bg-card/80">
+              <CardTitle className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
+                OFERTA ESPECIAL POR TEMPO LIMITADO
+              </CardTitle>
+              <CardDescription className="text-lg text-muted-foreground mt-2">
+                Acesso Imediato a Todo o Conteúdo. Sem Mensalidades.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="p-8 sm:p-10 flex-1">
+              <div className="text-center mb-8">
+                <p className="text-xl text-muted-foreground line-through">De R$147,00</p>
+                <div className="flex items-center justify-center gap-2 mt-2">
+                  <span className="text-sm">Por apenas</span>
+                  <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">R$4,90</span>
                 </div>
-              </CardHeader>
-              <CardContent className="flex-1">
-                <ul className="space-y-4 text-left">
-                  {plan.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
-                      <CheckCircle2 className="h-5 w-5 text-primary mt-1 shrink-0" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-              <CardFooter>
-                <Button asChild size="lg" className={cn('w-full h-12 text-lg', !plan.isPopular && 'bg-secondary text-secondary-foreground hover:bg-secondary/90')}>
-                  <Link href="#">{plan.cta}</Link>
-                </Button>
-              </CardFooter>
-            </Card>
-          ))}
+                <p className="text-lg font-semibold text-primary mt-2 animate-pulse">Pagamento Único!</p>
+              </div>
+
+              <ul className="space-y-4">
+                {features.map((feature, index) => (
+                  <li key={index} className="flex items-start gap-4">
+                    <feature.icon className="h-6 w-6 text-primary mt-1 shrink-0" />
+                    <span className="text-base sm:text-lg">{feature.text}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+            <CardFooter className="p-6 bg-card/80 border-t border-border">
+              <Button asChild size="lg" className="w-full h-16 text-xl font-bold">
+                <Link href="#">QUERO ACESSO IMEDIATO POR R$4,90</Link>
+              </Button>
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </section>
