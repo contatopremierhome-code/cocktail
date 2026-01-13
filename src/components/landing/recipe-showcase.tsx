@@ -10,14 +10,18 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import Autoplay from "embla-carousel-autoplay"
 
 const recipes = [
   { id: 'mojito', name: 'Mojito Clássico', description: 'Menta Fresca e Limão' },
   { id: 'margarita', name: 'Margarita de Maracujá Picante', description: 'Um Toque Tropical' },
-  { id: 'hawaiian', name: 'Luxo Havaiano Azul', description: 'Uma Fuga Exótica' },
-  { id: 'gin-fizz', name: 'Gin Fizz de Morango', description: 'Borbullhante e Brilhante' },
-  { id: 'mocktail', name: 'Mocktail Pôr do Sol', description: 'Vibrante e Sem Álcool' },
-  { id: 'old-fashioned', name: 'Old Fashioned Defumado', description: 'Atemporal e Ousado' },
+  { id: 'caipirinha', name: 'Caipirinha Tradicional', description: 'O Clássico Brasileiro' },
+  { id: 'moscow-mule', name: 'Moscow Mule', description: 'Gengibre e Refrescância' },
+  { id: 'aperol-spritz', name: 'Aperol Spritz', description: 'O Sabor do Verão' },
+  { id: 'negroni', name: 'Negroni', description: 'Amargo na Medida Certa' },
+  { id: 'cosmopolitan', name: 'Cosmopolitan', description: 'Elegância e Sabor' },
+  { id: 'pina-colada', name: 'Piña Colada', description: 'Um Doce Escape Caribenho' },
+  { id: 'dry-martini', name: 'Dry Martini', description: 'Sofisticação Pura' },
 ];
 
 const RecipeShowcase = () => {
@@ -38,6 +42,13 @@ const RecipeShowcase = () => {
             align: 'start',
             loop: true,
           }}
+          plugins={[
+            Autoplay({
+              delay: 3000,
+              stopOnInteraction: false,
+              stopOnMouseEnter: true,
+            }),
+          ]}
           className="w-full"
         >
           <CarouselContent>
@@ -46,7 +57,7 @@ const RecipeShowcase = () => {
               return (
                 <CarouselItem key={recipe.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <Card className="overflow-hidden border-slate-800 bg-slate-900/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-primary/20 hover:shadow-2xl">
+                    <Card className="overflow-hidden border-slate-800 bg-slate-900/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-primary/20 hover:shadow-2xl group">
                       <CardContent className="relative aspect-[4/5] p-0">
                         {image && (
                           <Image

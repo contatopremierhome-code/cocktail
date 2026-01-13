@@ -41,6 +41,66 @@
       "description": "Smoked Old Fashioned.",
       "imageUrl": "https://images.unsplash.com/photo-1618834391355-e72be2f693b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGlza2V5JTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4Mjg0NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "whiskey cocktail"
+    },
+    {
+      "id": "caipirinha",
+      "description": "Brazilian Caipirinha with lime.",
+      "imageUrl": "https://images.unsplash.com/photo-1708416817517-089fccf84b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWlwaXJpbmhhJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIyMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caipirinha cocktail"
+    },
+    {
+      "id": "moscow-mule",
+      "description": "Moscow Mule in a copper mug.",
+      "imageUrl": "https://images.unsplash.com/photo-1600647629982-01f2cddf9af2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb3Njb3clMjBtdWxlfGVufDB8fHx8MTc2ODMyMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "moscow mule"
+    },
+    {
+      "id": "aperol-spritz",
+      "description": "Aperol Spritz with an orange slice.",
+      "imageUrl": "https://images.unsplash.com/photo-1585975776023-29a0dbc51407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcGVyb2wlMjBzcHJpdHp8ZW58MHx8fHwxNzY4MzIyMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "aperol spritz"
+    },
+    {
+      "id": "negroni",
+      "description": "Classic Negroni cocktail.",
+      "imageUrl": "https://images.unsplash.com/photo-1644940593626-e5c205c20f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MzIyMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "negroni cocktail"
+    },
+    {
+      "id": "cosmopolitan",
+      "description": "Cosmopolitan cocktail with a lime twist.",
+      "imageUrl": "https://images.unsplash.com/photo-1602748707906-ec6fb0155883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3Ntb3BvbGl0YW4lMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjgzMjIxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cosmopolitan cocktail"
+    },
+    {
+      "id": "pina-colada",
+      "description": "Piña Colada with a cherry on top.",
+      "imageUrl": "https://images.unsplash.com/photo-1550263549-8bd0eb500374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaW5hJTIwY29sYWRhfGVufDB8fHx8MTc2ODMyMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pina colada"
+    },
+    {
+      "id": "dry-martini",
+      "description": "Dry Martini with olives.",
+      "imageUrl": "https://images.unsplash.com/photo-1617721042693-0812f6d26d44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkcnklMjBtYXJ0aW5pfGVufDB8fHx8MTc2ODMyMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dry martini"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar of a happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar of another happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Avatar of a third happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjgyMzk0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
     }
   ]
 }

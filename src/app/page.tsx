@@ -6,6 +6,7 @@ import Bonuses from '@/components/landing/bonuses';
 import Faq from '@/components/landing/faq';
 import StickyCta from '@/components/landing/sticky-cta';
 import Footer from '@/components/landing/footer';
+import Testimonials from '@/components/landing/testimonials';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <RecipeShowcase />
         <Pricing />
         <Bonuses />
+        <Testimonials />
         <Faq />
       </main>
       <Footer />
