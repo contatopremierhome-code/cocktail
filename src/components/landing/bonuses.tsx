@@ -5,15 +5,15 @@ import { Badge } from '@/components/ui/badge';
 const bonuses = [
   {
     id: 'bonus-book-2',
-    title: 'Non-Alcoholic Drinks Guide',
-    description: 'Creative and tasty recipes for all tastes, without a drop of alcohol.',
-    price: '$49.00'
+    title: 'Guia de Drinks Sem Álcool',
+    description: 'Receitas criativas e saborosas para todos os gostos, sem uma gota de álcool.',
+    price: 'R$49,00'
   },
   {
     id: 'bonus-book-3',
-    title: 'Home Bar in 5 Minutes',
-    description: 'Set up your bar with the essentials without spending a lot. Impress with little.',
-    price: '$49.00'
+    title: 'Bar em Casa em 5 Minutos',
+    description: 'Monte seu bar com o essencial sem gastar muito. Impressione com pouco.',
+    price: 'R$49,00'
   },
 ];
 
@@ -23,10 +23,10 @@ const Bonuses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Get <span className="text-primary">2 Exclusive Bonuses</span> (valued at $98)
+            Receba <span className="text-primary">2 Bônus Exclusivos</span> (avaliados em R$98)
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-2xl text-green-400 font-bold animate-pulse">
-            FREE, ONLY TODAY!
+            GRÁTIS, SOMENTE HOJE!
           </p>
         </div>
 
@@ -46,13 +46,13 @@ const Bonuses = () => {
                       data-ai-hint={image.imageHint}
                     />
                   )}
-                   <Badge className="absolute top-4 right-4 text-base" variant="destructive">BONUS</Badge>
+                   <Badge className="absolute top-4 right-4 text-base" variant="destructive">BÔNUS</Badge>
                 </div>
                 <h3 className="text-xl font-bold">{bonus.title}</h3>
                 <p className="text-muted-foreground mt-2 mb-2">{bonus.description}</p>
                 <p className="text-lg font-semibold">
                   <span className="line-through text-muted-foreground/80">{bonus.price}</span>
-                  <span className="text-primary ml-2">Today: Free!</span>
+                  <span className="text-primary ml-2">Hoje: Grátis!</span>
                 </p>
               </div>
             )

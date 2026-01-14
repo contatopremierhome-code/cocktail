@@ -11,7 +11,7 @@ const Header = () => {
           <span className="text-xl font-bold">Cocktail Master</span>
         </Link>
         <Button asChild className="hidden md:flex" size="lg">
-          <Link href="#pricing">Get Recipes</Link>
+          <Link href="#pricing">Obter Receitas</Link>
         </Button>
       </div>
     </header>
