@@ -16,10 +16,10 @@ const Hero = () => {
               Desperte o <span className="text-primary">Mestre dos Drinks</span> que Existe em Você.
             </h1>
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-lg text-muted-foreground sm:text-xl">
-              Domine mais de 500 receitas de coquetéis profissionais com ingredientes simples que você já tem em casa. Não precisa de equipamento chique.
+              Domine mais de 500 receitas de coquetéis profissionais com ingredientes simples que você já tem em casa. Não precisa de equipamento chique ou ser um expert em bebidas.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
-              <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto">
+              <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto hidden md:inline-flex">
                 <Link href="#pricing">Comece Agora</Link>
               </Button>
             </div>
