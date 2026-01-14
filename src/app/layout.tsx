@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Cocktail Master - Desbloqueie +500 Receitas de Coquetéis',
+  title: 'Mestre dos Drinks - Desbloqueie +500 Receitas de Coquetéis',
   description: 'Torne-se o bartender oficial de todas as festas. Domine receitas de coquetéis com ingredientes simples. Não precisa de equipamento chique.',
 };
 

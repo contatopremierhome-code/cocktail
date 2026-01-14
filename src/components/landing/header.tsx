@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Martini className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold">Cocktail Master</span>
+          <span className="text-xl font-bold">Mestre dos Drinks</span>
         </Link>
         <Button asChild className="hidden md:flex" size="lg">
           <Link href="#pricing">Obter Receitas</Link>
