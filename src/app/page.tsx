@@ -8,6 +8,7 @@ import StickyCta from '@/components/landing/sticky-cta';
 import Footer from '@/components/landing/footer';
 import Testimonials from '@/components/landing/testimonials';
 import MainProduct from '@/components/landing/main-product';
+import RecipePreview from '@/components/landing/recipe-preview';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <RecipeShowcase />
         <MainProduct />
+        <RecipePreview />
         <Bonuses />
         <Testimonials />
         <Pricing />
