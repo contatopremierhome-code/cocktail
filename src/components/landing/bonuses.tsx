@@ -4,14 +4,8 @@ import { Badge } from '@/components/ui/badge';
 
 const bonuses = [
   {
-    id: 'bonus-book-2',
-    title: 'Guia de Drinks Sem Álcool',
-    description: 'Receitas criativas e saborosas para todos os gostos, sem uma gota de álcool.',
-    price: 'R$49,00'
-  },
-  {
-    id: 'bonus-book-3',
-    title: 'Bar em Casa em 5 Minutos',
+    id: 'bonus-mini-bar',
+    title: 'Manual de Como Criar seu Mini Bar de Drinks em Casa',
     description: 'Monte seu bar com o essencial sem gastar muito. Impressione com pouco.',
     price: 'R$49,00'
   },
@@ -23,14 +17,14 @@ const Bonuses = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Receba <span className="text-primary">2 Bônus Exclusivos</span> (avaliados em R$98)
+            Receba um <span className="text-primary">Bônus Exclusivo</span> (avaliado em R$49)
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-2xl text-green-400 font-bold animate-pulse">
             GRÁTIS, SOMENTE HOJE!
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+        <div className="grid gap-8 md:grid-cols-1 max-w-md mx-auto">
           {bonuses.map((bonus) => {
             const image = PlaceHolderImages.find(p => p.id === bonus.id);
             return (
