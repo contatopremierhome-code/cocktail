@@ -41,7 +41,7 @@ const Pricing = () => {
                 <p className="text-xl text-muted-foreground line-through">De R$147,00</p>
                 <div className="flex items-center justify-center gap-2 mt-2">
                   <span className="text-sm">Por apenas</span>
-                  <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">R$4,90</span>
+                  <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">R$9,90</span>
                 </div>
                 <p className="text-lg font-semibold text-primary mt-2 animate-pulse">Pagamento Único!</p>
               </div>
@@ -57,7 +57,7 @@ const Pricing = () => {
             </CardContent>
             <CardFooter className="p-6 bg-card/80 border-t border-border">
               <Button asChild size="lg" className="w-full h-16 text-lg sm:text-xl font-bold">
-                <Link href="#">QUERO ACESSO IMEDIATO POR R$4,90</Link>
+                <Link href="#">QUERO ACESSO IMEDIATO POR R$9,90</Link>
               </Button>
             </CardFooter>
           </Card>
