@@ -27,10 +27,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-extrabold tracking-tight sm:text-4xl">
-            O Que Nossos Clientes Dizem
+           ⭐ O Que Dizem Nossos Clientes
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Veja como transformamos entusiastas em verdadeiros mestres dos coquetéis.
+          <p className="mt-4 text-lg text-muted-foreground">
+            4.9/5 • 3.500+ avaliações
           </p>
         </div>
 
