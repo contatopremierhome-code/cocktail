@@ -13,13 +13,13 @@ const Hero = () => {
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div className="text-center lg:text-left">
             <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-              Torne-se o <span className="text-primary">Bartender Oficial</span> de Toda Festa.
+              Desperte o <span className="text-primary">Mestre dos Drinks</span> que Existe em Você.
             </h1>
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-lg text-muted-foreground sm:text-xl">
               Domine mais de 500 receitas de coquetéis profissionais com ingredientes simples que você já tem em casa. Não precisa de equipamento chique.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
-              <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto hidden md:inline-flex">
+              <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto">
                 <Link href="#pricing">Comece Agora</Link>
               </Button>
             </div>
