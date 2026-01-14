@@ -21,7 +21,7 @@ const VideoCta = () => {
         </div>
         <div className="mt-10">
            <Button asChild size="lg" className="h-16 text-lg sm:text-xl font-bold">
-                <Link href="#pricing">QUERO ACESSO IMEDIATO POR R$9,90</Link>
+                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO ACESSO IMEDIATO POR R$9,90</Link>
             </Button>
         </div>
       </div>

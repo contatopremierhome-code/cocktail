@@ -11,7 +11,7 @@ const Header = () => {
           <span className="text-xl font-bold">Mestre dos Drinks</span>
         </Link>
         <Button asChild className="hidden md:flex" size="lg">
-          <Link href="#pricing">Obter Receitas</Link>
+          <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">Obter Receitas</Link>
         </Button>
       </div>
     </header>

@@ -10,11 +10,7 @@ const features = [
   },
   {
     icon: PartyPopper,
-    text: 'Guia de Drinks Sem Álcool (Bônus #1)',
-  },
-  {
-    icon: PartyPopper,
-    text: 'Guia Bar em Casa em 5 Minutos (Bônus #2)',
+    text: 'Manual de Como Criar seu Mini Bar de Drinks em Casa (Bônus)',
   },
   {
     icon: ShieldCheck,
@@ -57,7 +53,7 @@ const Pricing = () => {
             </CardContent>
             <CardFooter className="p-6 bg-card/80 border-t border-border">
               <Button asChild size="lg" className="w-full h-16 text-lg sm:text-xl font-bold">
-                <Link href="#">QUERO ACESSO IMEDIATO POR R$9,90</Link>
+                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO ACESSO IMEDIATO POR R$9,90</Link>
               </Button>
             </CardFooter>
           </Card>

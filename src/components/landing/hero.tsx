@@ -20,7 +20,7 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
               <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto hidden md:inline-flex">
-                <Link href="#pricing">Comece Agora</Link>
+                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">Comece Agora</Link>
               </Button>
             </div>
           </div>

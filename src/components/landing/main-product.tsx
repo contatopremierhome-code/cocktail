@@ -30,7 +30,7 @@ const MainProduct = () => {
                 />
             )}
             <Button asChild size="lg" className="h-14 text-lg">
-                <Link href="#pricing">QUERO MEU GUIA AGORA!</Link>
+                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO MEU GUIA AGORA!</Link>
             </Button>
         </div>
 
