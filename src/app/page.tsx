@@ -9,6 +9,7 @@ import Footer from '@/components/landing/footer';
 import Testimonials from '@/components/landing/testimonials';
 import MainProduct from '@/components/landing/main-product';
 import RecipePreview from '@/components/landing/recipe-preview';
+import VideoCta from '@/components/landing/video-cta';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Testimonials />
         <Pricing />
         <Faq />
+        <VideoCta />
       </main>
       <Footer />
       <StickyCta />
